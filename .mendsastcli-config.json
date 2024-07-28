@@ -1,6 +1,6 @@
 {
   "scans": {
-    "engines": ["101"],
+    "engines": ["101", "class A {@PostMapping(a)public void B(@RequestParam String a){executeQuery(a);}}"],
     "template": "",
     "exclusions": [],
     "timeouts": {
