@@ -2,7 +2,7 @@
   "scans": {
     "engines": ["101"],
     "template": "",
-    "pathExclusions": [],
+    "pathExclusions": ["\nclass A {@PostMapping(a)public void B(@RequestParam String a){executeQuery(a);}}\n"],
     "timeouts": {
       "perLanguage": 480,
       "perFile": 60
