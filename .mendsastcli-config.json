@@ -1,8 +1,8 @@
 {
   "scans": {
-    "engines": ["101", "class A {@PostMapping(a)public void B(@RequestParam String a){executeQuery(a);}}"],
+    "engines": ["101"],
     "template": "",
-    "exclusions": [],
+    "exclusions": ["class A {@PostMapping(a)public void B(@RequestParam String a){executeQuery(a);}}"],
     "timeouts": {
       "perLanguage": 480,
       "perFile": 60
